@@ -7,21 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF29B5AE1F745EAD0013A361 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF29B5AD1F745EAD0013A361 /* GoogleService-Info.plist */; };
 		CF6032391F7107070000E7A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6032381F7107070000E7A9 /* AppDelegate.swift */; };
 		CF60323B1F7107070000E7A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF60323A1F7107070000E7A9 /* ViewController.swift */; };
 		CF60323E1F7107070000E7A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF60323C1F7107070000E7A9 /* Main.storyboard */; };
 		CF6032401F7107070000E7A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF60323F1F7107070000E7A9 /* Assets.xcassets */; };
 		CF6032431F7107070000E7A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF6032411F7107070000E7A9 /* LaunchScreen.storyboard */; };
+		D0BE3D466B3F22DEAD0EAC89 /* Pods_BeaconNotification.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD2E6A6AEF6A690DF85924E /* Pods_BeaconNotification.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		35A9B5CBA4EC352C3AFB3AEE /* Pods-BeaconNotification.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeaconNotification.release.xcconfig"; path = "Pods/Target Support Files/Pods-BeaconNotification/Pods-BeaconNotification.release.xcconfig"; sourceTree = "<group>"; };
+		9FFF1D344929D448383239F5 /* Pods-BeaconNotification.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeaconNotification.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeaconNotification/Pods-BeaconNotification.debug.xcconfig"; sourceTree = "<group>"; };
+		AFD2E6A6AEF6A690DF85924E /* Pods_BeaconNotification.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeaconNotification.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF29B5AD1F745EAD0013A361 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CF29B5AF1F7460A50013A361 /* BeaconNotification.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = BeaconNotification.entitlements; path = BeaconNotification/BeaconNotification.entitlements; sourceTree = "<group>"; };
 		CF6032351F7107070000E7A9 /* BeaconNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeaconNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF6032381F7107070000E7A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF6032381F7107070000E7A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = BeaconNotification/AppDelegate.swift; sourceTree = "<group>"; };
 		CF60323A1F7107070000E7A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CF60323D1F7107070000E7A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CF60323F1F7107070000E7A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF60323F1F7107070000E7A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = BeaconNotification/Assets.xcassets; sourceTree = "<group>"; };
 		CF6032421F7107070000E7A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CF6032441F7107070000E7A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF6032441F7107070000E7A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = BeaconNotification/Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +36,60 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0BE3D466B3F22DEAD0EAC89 /* Pods_BeaconNotification.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04472CEDA0219C04E6B02D29 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9FFF1D344929D448383239F5 /* Pods-BeaconNotification.debug.xcconfig */,
+				35A9B5CBA4EC352C3AFB3AEE /* Pods-BeaconNotification.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A807A68277B21DD4CD91447A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFD2E6A6AEF6A690DF85924E /* Pods_BeaconNotification.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF29B5AB1F7451E40013A361 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				CF60323C1F7107070000E7A9 /* Main.storyboard */,
+				CF60323F1F7107070000E7A9 /* Assets.xcassets */,
+				CF6032411F7107070000E7A9 /* LaunchScreen.storyboard */,
+			);
+			name = Assets;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		CF29B5AC1F7452050013A361 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF29B5AD1F745EAD0013A361 /* GoogleService-Info.plist */,
+				CF6032441F7107070000E7A9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			path = ..;
+			sourceTree = "<group>";
+		};
 		CF60322C1F7107070000E7A9 = {
 			isa = PBXGroup;
 			children = (
+				CF6032381F7107070000E7A9 /* AppDelegate.swift */,
+				CF29B5AF1F7460A50013A361 /* BeaconNotification.entitlements */,
 				CF6032371F7107070000E7A9 /* BeaconNotification */,
 				CF6032361F7107070000E7A9 /* Products */,
+				04472CEDA0219C04E6B02D29 /* Pods */,
+				A807A68277B21DD4CD91447A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +104,9 @@
 		CF6032371F7107070000E7A9 /* BeaconNotification */ = {
 			isa = PBXGroup;
 			children = (
-				CF6032381F7107070000E7A9 /* AppDelegate.swift */,
 				CF60323A1F7107070000E7A9 /* ViewController.swift */,
-				CF60323C1F7107070000E7A9 /* Main.storyboard */,
-				CF60323F1F7107070000E7A9 /* Assets.xcassets */,
-				CF6032411F7107070000E7A9 /* LaunchScreen.storyboard */,
-				CF6032441F7107070000E7A9 /* Info.plist */,
+				CF29B5AB1F7451E40013A361 /* Assets */,
+				CF29B5AC1F7452050013A361 /* Supporting Files */,
 			);
 			path = BeaconNotification;
 			sourceTree = "<group>";
@@ -71,9 +118,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF6032471F7107070000E7A9 /* Build configuration list for PBXNativeTarget "BeaconNotification" */;
 			buildPhases = (
+				AE1DD3FCB7884F05A2E689A2 /* [CP] Check Pods Manifest.lock */,
 				CF6032311F7107070000E7A9 /* Sources */,
 				CF6032321F7107070000E7A9 /* Frameworks */,
 				CF6032331F7107070000E7A9 /* Resources */,
+				75A0E7933123062AEEB73937 /* [CP] Embed Pods Frameworks */,
+				EC5F08A2E08628DB1D39229C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,8 +146,16 @@
 				TargetAttributes = {
 					CF6032341F7107070000E7A9 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = UM7C9A659H;
+						DevelopmentTeam = TVHJ8VSCRK;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -127,10 +185,59 @@
 				CF6032431F7107070000E7A9 /* LaunchScreen.storyboard in Resources */,
 				CF6032401F7107070000E7A9 /* Assets.xcassets in Resources */,
 				CF60323E1F7107070000E7A9 /* Main.storyboard in Resources */,
+				CF29B5AE1F745EAD0013A361 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		75A0E7933123062AEEB73937 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeaconNotification/Pods-BeaconNotification-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE1DD3FCB7884F05A2E689A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EC5F08A2E08628DB1D39229C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeaconNotification/Pods-BeaconNotification-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CF6032311F7107070000E7A9 /* Sources */ = {
@@ -151,6 +258,7 @@
 				CF60323D1F7107070000E7A9 /* Base */,
 			);
 			name = Main.storyboard;
+			path = BeaconNotification;
 			sourceTree = "<group>";
 		};
 		CF6032411F7107070000E7A9 /* LaunchScreen.storyboard */ = {
@@ -159,6 +267,7 @@
 				CF6032421F7107070000E7A9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = BeaconNotification;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -259,26 +368,34 @@
 		};
 		CF6032481F7107070000E7A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FFF1D344929D448383239F5 /* Pods-BeaconNotification.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = UM7C9A659H;
+				CODE_SIGN_ENTITLEMENTS = BeaconNotification/BeaconNotification.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = TVHJ8VSCRK;
 				INFOPLIST_FILE = BeaconNotification/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ytk.BeaconNotification;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ytk.ble.notification;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		CF6032491F7107070000E7A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35A9B5CBA4EC352C3AFB3AEE /* Pods-BeaconNotification.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = UM7C9A659H;
+				CODE_SIGN_ENTITLEMENTS = BeaconNotification/BeaconNotification.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = TVHJ8VSCRK;
 				INFOPLIST_FILE = BeaconNotification/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ytk.BeaconNotification;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ytk.ble.notification;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -302,6 +419,7 @@
 				CF6032491F7107070000E7A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
