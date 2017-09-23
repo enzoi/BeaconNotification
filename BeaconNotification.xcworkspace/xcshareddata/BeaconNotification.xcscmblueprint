@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5B1147EC2C1ACFB43E0F6E7A256360C4B547004C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5B1147EC2C1ACFB43E0F6E7A256360C4B547004C" : 9223372036854775807,
+    "6CCB585858000804BB16202076224C1AB1B84311" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9694823D-691C-4F62-BB99-05E421B64608",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5B1147EC2C1ACFB43E0F6E7A256360C4B547004C" : "BeaconNotification\/",
+    "6CCB585858000804BB16202076224C1AB1B84311" : "Estimote_SDK\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "BeaconNotification",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "BeaconNotification.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:enzoi\/BeaconNotification.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5B1147EC2C1ACFB43E0F6E7A256360C4B547004C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Estimote\/iOS-SDK.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6CCB585858000804BB16202076224C1AB1B84311"
+    }
+  ]
+}

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CF29B5AE1F745EAD0013A361 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF29B5AD1F745EAD0013A361 /* GoogleService-Info.plist */; };
+		CF29B5B11F761E5C0013A361 /* EstimoteSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF29B5B01F761E5C0013A361 /* EstimoteSDK.framework */; };
 		CF6032391F7107070000E7A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6032381F7107070000E7A9 /* AppDelegate.swift */; };
 		CF60323B1F7107070000E7A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF60323A1F7107070000E7A9 /* ViewController.swift */; };
 		CF60323E1F7107070000E7A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF60323C1F7107070000E7A9 /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 		AFD2E6A6AEF6A690DF85924E /* Pods_BeaconNotification.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeaconNotification.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF29B5AD1F745EAD0013A361 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CF29B5AF1F7460A50013A361 /* BeaconNotification.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = BeaconNotification.entitlements; path = BeaconNotification/BeaconNotification.entitlements; sourceTree = "<group>"; };
+		CF29B5B01F761E5C0013A361 /* EstimoteSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EstimoteSDK.framework; path = ../Estimote_SDK/EstimoteSDK/EstimoteSDK.framework; sourceTree = "<group>"; };
 		CF6032351F7107070000E7A9 /* BeaconNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeaconNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF6032381F7107070000E7A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = BeaconNotification/AppDelegate.swift; sourceTree = "<group>"; };
 		CF60323A1F7107070000E7A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +39,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0BE3D466B3F22DEAD0EAC89 /* Pods_BeaconNotification.framework in Frameworks */,
+				CF29B5B11F761E5C0013A361 /* EstimoteSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +58,7 @@
 		A807A68277B21DD4CD91447A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CF29B5B01F761E5C0013A361 /* EstimoteSDK.framework */,
 				AFD2E6A6AEF6A690DF85924E /* Pods_BeaconNotification.framework */,
 			);
 			name = Frameworks;

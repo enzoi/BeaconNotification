@@ -1,4 +1,5 @@
 PODS:
+  - EstimoteSDK (4.17.0)
   - Firebase/Core (4.0.4):
     - FirebaseAnalytics (= 4.0.2)
     - FirebaseCore (= 4.0.4)
@@ -33,10 +34,12 @@ PODS:
   - Protobuf (3.3.0)
 
 DEPENDENCIES:
+  - EstimoteSDK
   - Firebase/Core
   - Firebase/Messaging
 
 SPEC CHECKSUMS:
+  EstimoteSDK: edbee39521320b7afe2b9d91dc33d5b57c6d5483
   Firebase: 1492bf04e1b73a7353b4fb2cf5a20bac9692f341
   FirebaseAnalytics: ad41720e3e67fc63fbe3d2948d3e26932a8de311
   FirebaseCore: cfc042628ef9f20debe09c0eb683135fcd404cb4
@@ -46,6 +49,6 @@ SPEC CHECKSUMS:
   nanopb: 22bc080fa3955e2116b6ff3ee6c2cb3c15ab97cb
   Protobuf: d582fecf68201eac3d79ed61369ef45734394b9c
 
-PODFILE CHECKSUM: ee0ec5eca3254be231f9cf78958322e14abcae20
+PODFILE CHECKSUM: 605bf26c98ce50e2fd8ea97a850383cd275c159a
 
 COCOAPODS: 1.2.1

@@ -1,4 +1,3 @@
-# Uncomment the next line to define a global platform for your project
 platform :ios, '10.0'
 
 target 'BeaconNotification' do
@@ -9,5 +8,6 @@ target 'BeaconNotification' do
 
   pod 'Firebase/Core'
   pod 'Firebase/Messaging'
+  pod 'EstimoteSDK' 
 
 end
